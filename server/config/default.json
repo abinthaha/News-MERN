@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://abin:abin123@news.otwds.mongodb.net/newsDetails?retryWrites=true&w=majority"
+}

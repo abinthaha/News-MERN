@@ -1,0 +1,58 @@
+@import '../../styles/index.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.user-header {
+    display: flex;
+    align-items: center;
+
+    h2 {
+        flex: 1;
+    }
+}
+
+.form-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+
+    .form-element {
+        flex: 1;
+        min-width: 50%;
+        max-width: 50%;
+        display: inline-flex;
+        border: 1px solid #ddd;
+        padding: 10px;
+
+        label {
+            max-width: 30%;
+            flex: 1;
+        }
+    }
+
+    &.balance-wrapper {
+        align-items: center;
+        .form-element {
+            max-width: 33%;
+            min-width: 33%;
+        }
+
+        .btn-wrapper {
+            text-align: center;
+            flex: 1;
+        }
+    }
+}
+
+.btn-wrapper {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
